@@ -1,0 +1,85 @@
+#+TITLE: Stefan Yohansson
+
+I am an open source passionate that love to learn, share and contribute particularly on any initiative that make the world equal to everyone.
+I love C, Elixir, Rust, python and really sometimes Javascript. I help here and there in opensource pojects like Firefox DevTools (I am a mozillian :3),
+some KDE suite softwares and FreeSWITCH platform.
+
+* Education
+  - 2012--2016: Incomplete Bachelor degree in Mathematics
+    at University Federal do Rio Grande do Norte
+  - 2022--2023: Real-Time Embedded Systems Concepts and Practices at University
+    of Colorado Boulder (Coursera)
+  - 2022--2023: Real-Time Mission-Critical Systems Design at University
+    of Colorado Boulder (Coursera)
+
+* Skills
+
+- Polyglot engineer, strong expertise for general backend, frontend and
+  embedded development
+- Proficient in Python, Elixir, JavaScript, C, Rust, familiar with C++, Java,
+  Lisp/Scheme/Clojure, Go.
+
+* Work Experience
+
+- 2022.2--Present: Senior Developer at Sangoma
+  - $7 \times 24$ Check telephony service availability and recovery any possible failure;
+  - Improve and maintain the ACD (Automatic Call Distributor), the piece of software responsible
+    to match an agent and a customer in a CCaaS platform;
+  - Help and solve questions regarding entire platform;
+
+\vspace{2mm}
+
+- 2021.2--2022.8: Senior Developer/Consultant at Telnyx
+  - $7 \times 24$ Check FreeSWITCH service availability and recovery any possible failure;
+  - Improve and implement new functionalities in FreeSWITCH modules;
+  - Be the bridge between FreeSWITCH team and WebRTC team (javascript developers), help with questions about webRTC and
+    fix problems with mod_verto (WebRTC FreeSWITCH module); 
+
+\vspace{2mm}
+
+- 2019.1--2020.11: Consultant at MobileMinds
+  - Architect and built a node backend for Ology (pharmaceutical integration platform);
+
+\vspace{2mm}
+
+- 2015.2--2018.12: Senior Developer at Evolux
+  - $7 \times 24$ Check telephony service availability and recovery any possible failure;
+  - Lead developer and manager for Outsource initiative between Evolux and SilentCircle to built a
+    SPA chat and a react dashboard control panel, managing 4 developers and providing reports of the progress
+    for the stakeholders;
+  - Start working with ACD (Automatic Call Distributor), the piece of software responsible
+    to match an agent and a customer in a CCaaS platform;
+  - Improve some panels backend and frontend logic that cost minutes to load in order to load in milliseconds;
+
+\vspace{2mm}
+
+- 2014.8--2014.12: Senior Developer at Stepmoney Brasil S.A
+  - Develop from day 0 a rechargeable card platform;
+  - Later focusing on the financial reports and credit security modules; 
+
+\vspace{2mm}
+
+- 2013.2--2014.8: Plain Developer at Tecnotech Sistemas
+  - Working in a governmental system used by all Brazilian engineers and architects
+    I was allocated as the financial module leader. The financial module was suffering from high loads
+    due to long polling tasks and expensive query routines, so I start refactoring some code and used materialized views
+    in order to mitigate the problem our customers are facing while trying to pay the annuity bill.
+
+\vspace{2mm}
+
+- 2013.8--2013.11: Trainee at MaisData Comunicação Direta
+  - First contact with Wordpress and maintaining shared host websites.
+    I was on top of 30+ websites managed by this digital agency.
+
+\vspace{2mm}
+
+- 2010.4--2013.6: Developer at Digicontrol - ISP
+  - $7 \times 24$ Responsible for the operation of complex radio access network (+500 remote radio head)
+  - develop and setup the asterisk with ivr system for isp's,
+    adapt codec to work in high latency network and inspect packages loss with capture analysis tools (Homer capture);
+
+* Contact Me
+
+- Email: [[mailto:sy.fen0@gmail.com][sy.fen0@gmail.com]]
+- Linkedin: https://www.linkedin.com/in/stefan-yohansson-areeira-pinto-4549844b/
+- Github: https://github.com/StefanYohansson/

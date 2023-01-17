@@ -1,0 +1,304 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Stefan Yohansson},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% English font settings
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Fira Code}
+
+% page layout/margin control
+\usepackage[scale=0.8, marginparsep=10pt]{geometry}
+% \geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+
+% renew quote environment based on framed package
+% Thanks http://www.jevon.org/wiki/Fancy_Quotation_Boxes_in_Latex
+
+% for adjustwidth environment
+\usepackage[strict]{changepage}
+
+\usepackage{framed}
+\usepackage{xcolor}
+
+% environment derived from framed.sty: see leftbar environment definition
+\definecolor{quoteshade}{rgb}{0.95,0.95,0.95}
+
+\renewenvironment{quote}{%
+  \setlength{\parskip}{0.2\baselineskip}
+  \def\FrameCommand{%
+    \hspace{1pt}%
+    {\color{gray}\vrule width 2pt}%
+    {\color{quoteshade}\vrule width 4pt}%
+    \colorbox{quoteshade}%
+  }%
+  \MakeFramed{\advance\hsize-\width\FrameRestore}%
+  \noindent\hspace{-4.55pt}% disable indenting first paragraph
+  \begin{adjustwidth}{}{7pt}%
+  \vspace{2pt}\vspace{2pt}%
+}
+{%
+  \vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}
+
+%% \setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
+%% \title{ Stefan Yohansson } % put your name here
+%% \author{ sy.fen0@gmail.com \textbar{} stefanyohansson@github } % put your contact information here
+%% \date{} % Leave blank to remove the date
+
+% BEGIN DOCUMENT
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Stefan Yohansson}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+I am an open source passionate that love to learn, share and contribute
+particularly on any initiative that make the world equal to everyone. I
+love C, Elixir, Rust, python and really sometimes Javascript. I help
+here and there in opensource pojects like Firefox DevTools (I am a
+mozillian :3), some KDE suite softwares and FreeSWITCH platform.
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{itemize}
+\tightlist
+\item
+  2012--2016: Incomplete Bachelor degree in Mathematics at University
+  Federal do Rio Grande do Norte
+\item
+  2022--2023: Real-Time Embedded Systems Concepts and Practices at
+  University of Colorado Boulder (Coursera)
+\item
+  2022--2023: Real-Time Mission-Critical Systems Design at University of
+  Colorado Boulder (Coursera)
+\end{itemize}
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\begin{itemize}
+\tightlist
+\item
+  Polyglot engineer, strong expertise for general backend, frontend and
+  embedded development
+\item
+  Proficient in Python, Elixir, JavaScript, C, Rust, familiar with C++,
+  Java, Lisp/Scheme/Clojure, Go.
+\end{itemize}
+
+\hypertarget{work-experience}{%
+\section{Work Experience}\label{work-experience}}
+
+\begin{itemize}
+\tightlist
+\item
+  2022.2--Present: Senior Developer at Sangoma
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(7 \times 24\) Check telephony service availability and recovery
+    any possible failure;
+  \item
+    Improve and maintain the ACD (Automatic Call Distributor), the piece
+    of software responsible to match an agent and a customer in a CCaaS
+    platform;
+  \item
+    Help and solve questions regarding entire platform;
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  2021.2--2022.8: Senior Developer/Consultant at Telnyx
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(7 \times 24\) Check FreeSWITCH service availability and recovery
+    any possible failure;
+  \item
+    Improve and implement new functionalities in FreeSWITCH modules;
+  \item
+    Be the bridge between FreeSWITCH team and WebRTC team (javascript
+    developers), help with questions about webRTC and fix problems with
+    mod\textsubscript{verto} (WebRTC FreeSWITCH module);
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  2019.1--2020.11: Consultant at MobileMinds
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Architect and built a node backend for Ology (pharmaceutical
+    integration platform);
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  2015.2--2018.12: Senior Developer at Evolux
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(7 \times 24\) Check telephony service availability and recovery
+    any possible failure;
+  \item
+    Lead developer and manager for Outsource initiative between Evolux
+    and SilentCircle to built a SPA chat and a react dashboard control
+    panel, managing 4 developers and providing reports of the progress
+    for the stakeholders;
+  \item
+    Start working with ACD (Automatic Call Distributor), the piece of
+    software responsible to match an agent and a customer in a CCaaS
+    platform;
+  \item
+    Improve some panels backend and frontend logic that cost minutes to
+    load in order to load in milliseconds;
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  2014.8--2014.12: Senior Developer at Stepmoney Brasil S.A
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Develop from day 0 a rechargeable card platform;
+  \item
+    Later focusing on the financial reports and credit security modules;
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  2013.2--2014.8: Plain Developer at Tecnotech Sistemas
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Working in a governmental system used by all Brazilian engineers and
+    architects I was allocated as the financial module leader. The
+    financial module was suffering from high loads due to long polling
+    tasks and expensive query routines, so I start refactoring some code
+    and used materialized views in order to mitigate the problem our
+    customers are facing while trying to pay the annuity bill.
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  2013.8--2013.11: Trainee at MaisData Comunicação Direta
+
+  \begin{itemize}
+  \tightlist
+  \item
+    First contact with Wordpress and maintaining shared host websites. I
+    was on top of 30+ websites managed by this digital agency.
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  2010.4--2013.6: Developer at Digicontrol - ISP
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(7 \times 24\) Responsible for the operation of complex radio
+    access network (+500 remote radio head)
+  \item
+    develop and setup the asterisk with ivr system for isp's, adapt
+    codec to work in high latency network and inspect packages loss with
+    capture analysis tools (Homer capture);
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{contact-me}{%
+\section{Contact Me}\label{contact-me}}
+
+\begin{itemize}
+\tightlist
+\item
+  Email: \href{mailto:sy.fen0@gmail.com}{\nolinkurl{sy.fen0@gmail.com}}
+\item
+  Linkedin:
+  \url{https://www.linkedin.com/in/stefan-yohansson-areeira-pinto-4549844b/}
+\item
+  Github: \url{https://github.com/StefanYohansson/}
+\end{itemize}
+
+\end{document}
