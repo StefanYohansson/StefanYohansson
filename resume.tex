@@ -88,6 +88,13 @@
 \fi
 
 \title{Stefan Yohansson}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Software Engineer}
 \author{}
 \date{}
 
@@ -96,25 +103,9 @@
 
 I am an open source passionate that love to learn, share and contribute
 particularly on any initiative that make the world equal to everyone. I
-love C, Elixir, Rust, python and really sometimes Javascript. I help
-here and there in opensource pojects like Firefox DevTools (I am a
-mozillian :3), some KDE suite softwares and FreeSWITCH platform.
-
-\hypertarget{education}{%
-\section{Education}\label{education}}
-
-\begin{itemize}
-\tightlist
-\item
-  2012--2016: Incomplete Bachelor degree in Mathematics at University
-  Federal do Rio Grande do Norte
-\item
-  2022--2023: Real-Time Embedded Systems Concepts and Practices at
-  University of Colorado Boulder (Coursera)
-\item
-  2022--2023: Real-Time Mission-Critical Systems Design at University of
-  Colorado Boulder (Coursera)
-\end{itemize}
+love C, C++, Elixir, Rust, Python and really sometimes Javascript. I
+help here and there in opensource pojects like Firefox (I am a mozillian
+:3), some KDE suite softwares and FreeSWITCH platform.
 
 \hypertarget{skills}{%
 \section{Skills}\label{skills}}
@@ -125,7 +116,7 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
   Polyglot engineer, strong expertise for general backend, frontend and
   embedded development
 \item
-  Proficient in Python, Elixir, JavaScript, C, Rust, familiar with C++,
+  Proficient in Python, Elixir, JavaScript, C, C++, Rust, familiar with
   Java, Lisp/Scheme/Clojure, Go.
 \end{itemize}
 
@@ -139,6 +130,9 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
 
   \begin{itemize}
   \tightlist
+  \item
+    skills: C, FreeSWITCH (Telephony platform), Elixir, Distributed
+    Systems, RabbitMQ, Python
   \item
     \(7 \times 24\) Check telephony service availability and recovery
     any possible failure;
@@ -156,15 +150,19 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
 \begin{itemize}
 \tightlist
 \item
-  2021.2--2022.8: Senior Developer/Consultant at Telnyx
+  2021.2--2022.8: C;C++ Senior Developer/Consultant at Telnyx
 
   \begin{itemize}
   \tightlist
   \item
+    skills: C, C++, FreeSWITCH (Telephony Platform), Distributed
+    Systems, RabbitMQ, WebRTC
+  \item
     \(7 \times 24\) Check FreeSWITCH service availability and recovery
     any possible failure;
   \item
-    Improve and implement new functionalities in FreeSWITCH modules;
+    Improve and implement new functionalities in FreeSWITCH modules
+    (written in C);
   \item
     Be the bridge between FreeSWITCH team and WebRTC team (javascript
     developers), help with questions about webRTC and fix problems with
@@ -182,6 +180,8 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
   \begin{itemize}
   \tightlist
   \item
+    skills: Javascript, React, Node
+  \item
     Architect and built a node backend for Ology (pharmaceutical
     integration platform);
   \end{itemize}
@@ -196,6 +196,9 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
 
   \begin{itemize}
   \tightlist
+  \item
+    skills: Python, Javascript, Angular 1.6, C, FreeSWITCH (Telephony
+    Platform)
   \item
     \(7 \times 24\) Check telephony service availability and recovery
     any possible failure;
@@ -224,6 +227,8 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
   \begin{itemize}
   \tightlist
   \item
+    skills: PHP
+  \item
     Develop from day 0 a rechargeable card platform;
   \item
     Later focusing on the financial reports and credit security modules;
@@ -239,6 +244,8 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
 
   \begin{itemize}
   \tightlist
+  \item
+    skills: PHP
   \item
     Working in a governmental system used by all Brazilian engineers and
     architects I was allocated as the financial module leader. The
@@ -259,6 +266,8 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
   \begin{itemize}
   \tightlist
   \item
+    skills: PHP
+  \item
     First contact with Wordpress and maintaining shared host websites. I
     was on top of 30+ websites managed by this digital agency.
   \end{itemize}
@@ -274,6 +283,8 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
   \begin{itemize}
   \tightlist
   \item
+    skills: C, Asterisk (Telephony Platform), PHP
+  \item
     \(7 \times 24\) Responsible for the operation of complex radio
     access network (+500 remote radio head)
   \item
@@ -281,6 +292,95 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
     codec to work in high latency network and inspect packages loss with
     capture analysis tools (Homer capture);
   \end{itemize}
+\end{itemize}
+
+\hypertarget{open-source-experience}{%
+\section{Open Source Experience}\label{open-source-experience}}
+
+\begin{itemize}
+\tightlist
+\item
+  KDE games
+
+  \begin{itemize}
+  \tightlist
+  \item
+    skills: C++, Qt Framework
+  \item
+    Fix bugs in some KDE default games and be the maintainer of AMOR
+    project;
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  KTelephone
+
+  \begin{itemize}
+  \tightlist
+  \item
+    skills: C++, Qt Framework
+  \item
+    Initial developer of the VoIP softphone application written in C++
+    with Qt. Inspired by "Telephone" the OSX application;
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  Firefox
+
+  \begin{itemize}
+  \tightlist
+  \item
+    skills: C++, React
+  \item
+    Fix bugs in firefox dev tools and the bridge between dev tools and
+    core;
+  \end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\begin{itemize}
+\tightlist
+\item
+  FreeSWITCH
+
+  \begin{itemize}
+  \tightlist
+  \item
+    skills: C, Javascript
+  \item
+    Fix bugs in modules like mod\textsubscript{callcenter},
+    mod\textsubscript{verto}, mod\textsubscript{voicemail} and help in
+    some proprietary modules;
+  \item
+    Create a test application to act as bedrock for integrations with
+    mod\textsubscript{verto};
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{itemize}
+\tightlist
+\item
+  2012--2016: Incomplete Bachelor degree in Mathematics at University
+  Federal do Rio Grande do Norte
+\item
+  2022--2023: Real-Time Embedded Systems Concepts and Practices at
+  University of Colorado Boulder (Coursera)
+\item
+  2022--2023: Real-Time Mission-Critical Systems Design at University of
+  Colorado Boulder (Coursera)
 \end{itemize}
 
 \hypertarget{contact-me}{%
@@ -295,6 +395,8 @@ mozillian :3), some KDE suite softwares and FreeSWITCH platform.
   \url{https://www.linkedin.com/in/stefan-yohansson-areeira-pinto-4549844b/}
 \item
   Github: \url{https://github.com/StefanYohansson/}
+\item
+  PT number: +351 911 166 640
 \end{itemize}
 
 \end{document}

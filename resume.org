@@ -1,27 +1,21 @@
 #+TITLE: Stefan Yohansson
+#+SUBTITLE: Software Engineer
 
 I am an open source passionate that love to learn, share and contribute particularly on any initiative that make the world equal to everyone.
-I love C, Elixir, Rust, python and really sometimes Javascript. I help here and there in opensource pojects like Firefox DevTools (I am a mozillian :3),
+I love C, C++, Elixir, Rust, Python and really sometimes Javascript. I help here and there in opensource pojects like Firefox (I am a mozillian :3),
 some KDE suite softwares and FreeSWITCH platform.
-
-* Education
-  - 2012--2016: Incomplete Bachelor degree in Mathematics
-    at University Federal do Rio Grande do Norte
-  - 2022--2023: Real-Time Embedded Systems Concepts and Practices at University
-    of Colorado Boulder (Coursera)
-  - 2022--2023: Real-Time Mission-Critical Systems Design at University
-    of Colorado Boulder (Coursera)
 
 * Skills
 
 - Polyglot engineer, strong expertise for general backend, frontend and
   embedded development
-- Proficient in Python, Elixir, JavaScript, C, Rust, familiar with C++, Java,
+- Proficient in Python, Elixir, JavaScript, C, C++, Rust, familiar with Java,
   Lisp/Scheme/Clojure, Go.
 
 * Work Experience
 
 - 2022.2--Present: Senior Developer at Sangoma
+  - skills: C, FreeSWITCH (Telephony platform), Elixir, Distributed Systems, RabbitMQ, Python
   - $7 \times 24$ Check telephony service availability and recovery any possible failure;
   - Improve and maintain the ACD (Automatic Call Distributor), the piece of software responsible
     to match an agent and a customer in a CCaaS platform;
@@ -29,20 +23,23 @@ some KDE suite softwares and FreeSWITCH platform.
 
 \vspace{2mm}
 
-- 2021.2--2022.8: Senior Developer/Consultant at Telnyx
+- 2021.2--2022.8: C;C++ Senior Developer/Consultant at Telnyx
+  - skills: C, C++, FreeSWITCH (Telephony Platform), Distributed Systems, RabbitMQ, WebRTC
   - $7 \times 24$ Check FreeSWITCH service availability and recovery any possible failure;
-  - Improve and implement new functionalities in FreeSWITCH modules;
+  - Improve and implement new functionalities in FreeSWITCH modules (written in C);
   - Be the bridge between FreeSWITCH team and WebRTC team (javascript developers), help with questions about webRTC and
-    fix problems with mod_verto (WebRTC FreeSWITCH module); 
+    fix problems with mod_verto (WebRTC FreeSWITCH module);
 
 \vspace{2mm}
 
 - 2019.1--2020.11: Consultant at MobileMinds
+  - skills: Javascript, React, Node
   - Architect and built a node backend for Ology (pharmaceutical integration platform);
 
 \vspace{2mm}
 
 - 2015.2--2018.12: Senior Developer at Evolux
+  - skills: Python, Javascript, Angular 1.6, C, FreeSWITCH (Telephony Platform)
   - $7 \times 24$ Check telephony service availability and recovery any possible failure;
   - Lead developer and manager for Outsource initiative between Evolux and SilentCircle to built a
     SPA chat and a react dashboard control panel, managing 4 developers and providing reports of the progress
@@ -54,12 +51,14 @@ some KDE suite softwares and FreeSWITCH platform.
 \vspace{2mm}
 
 - 2014.8--2014.12: Senior Developer at Stepmoney Brasil S.A
+  - skills: PHP
   - Develop from day 0 a rechargeable card platform;
   - Later focusing on the financial reports and credit security modules; 
 
 \vspace{2mm}
 
 - 2013.2--2014.8: Plain Developer at Tecnotech Sistemas
+  - skills: PHP
   - Working in a governmental system used by all Brazilian engineers and architects
     I was allocated as the financial module leader. The financial module was suffering from high loads
     due to long polling tasks and expensive query routines, so I start refactoring some code and used materialized views
@@ -68,18 +67,53 @@ some KDE suite softwares and FreeSWITCH platform.
 \vspace{2mm}
 
 - 2013.8--2013.11: Trainee at MaisData Comunicação Direta
+  - skills: PHP
   - First contact with Wordpress and maintaining shared host websites.
     I was on top of 30+ websites managed by this digital agency.
 
 \vspace{2mm}
 
 - 2010.4--2013.6: Developer at Digicontrol - ISP
+  - skills: C, Asterisk (Telephony Platform), PHP
   - $7 \times 24$ Responsible for the operation of complex radio access network (+500 remote radio head)
   - develop and setup the asterisk with ivr system for isp's,
     adapt codec to work in high latency network and inspect packages loss with capture analysis tools (Homer capture);
+
+* Open Source Experience
+- KDE games
+  - skills: C++, Qt Framework
+  - Fix bugs in some KDE default games and be the maintainer of AMOR project;
+
+\vspace{2mm}
+
+- KTelephone
+  - skills: C++, Qt Framework
+  - Initial developer of the VoIP softphone application written in C++ with Qt. Inspired by "Telephone" the OSX application;
+
+\vspace{2mm}
+
+- Firefox
+  - skills: C++, React
+  - Fix bugs in firefox dev tools and the bridge between dev tools and core;
+
+\vspace{2mm}
+
+- FreeSWITCH
+  - skills: C, Javascript
+  - Fix bugs in modules like mod_call_center, mod_verto, mod_voicemail and help in some proprietary modules;
+  - Create a test application to act as bedrock for integrations with mod_verto;
+
+* Education
+  - 2012--2016: Incomplete Bachelor degree in Mathematics
+    at University Federal do Rio Grande do Norte
+  - 2022--2023: Real-Time Embedded Systems Concepts and Practices at University
+    of Colorado Boulder (Coursera)
+  - 2022--2023: Real-Time Mission-Critical Systems Design at University
+    of Colorado Boulder (Coursera)
 
 * Contact Me
 
 - Email: [[mailto:sy.fen0@gmail.com][sy.fen0@gmail.com]]
 - Linkedin: https://www.linkedin.com/in/stefan-yohansson-areeira-pinto-4549844b/
 - Github: https://github.com/StefanYohansson/
+- PT number: +351 911 166 640
