@@ -2,14 +2,13 @@
 #+SUBTITLE: Software Engineer
 
 I am an open source passionate that love to learn, share and contribute particularly on any initiative that make the world equal to everyone.
-I love C, C++, Elixir, Rust, Python and really sometimes Javascript. I help here and there in opensource pojects like Firefox (I am a mozillian :3),
-some KDE suite softwares and FreeSWITCH platform.
+I help here and there in opensource pojects like Firefox (I am a mozillian :3), some KDE suite softwares and FreeSWITCH platform.
 
 * Skills
 
 - Polyglot engineer, strong expertise for general backend, frontend and
   embedded development
-- Proficient in Python, Elixir, JavaScript, C, C++, Rust, familiar with Java,
+- Proficient in C, C++, Rust, Python, Elixir, JavaScript, familiar with Java,
   Lisp/Scheme/Clojure, Go.
 
 * Work Experience
