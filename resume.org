@@ -79,6 +79,7 @@ I help here and there in opensource pojects like Firefox (I am a mozillian :3), 
     adapt codec to work in high latency network and inspect packages loss with capture analysis tools (Homer capture);
 
 * Open Source Experience
+
 - KDE games
   - skills: C++, Qt Framework
   - Fix bugs in some KDE default games and be the maintainer of AMOR project;
@@ -103,6 +104,7 @@ I help here and there in opensource pojects like Firefox (I am a mozillian :3), 
   - Create a test application to act as bedrock for integrations with mod_verto;
 
 * Education
+
   - 2012--2016: Incomplete Bachelor degree in Mathematics
     at University Federal do Rio Grande do Norte
   - 2022--2023: Real-Time Embedded Systems Concepts and Practices at University
