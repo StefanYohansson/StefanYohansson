@@ -4,10 +4,10 @@
 %
 \documentclass[
 ]{article}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -83,9 +83,6 @@
 %% \date{} % Leave blank to remove the date
 
 % BEGIN DOCUMENT
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 
 \title{Stefan Yohansson}
 \usepackage{etoolbox}
@@ -180,7 +177,7 @@ help here and there in opensource pojects like Firefox (I am a mozillian
   \begin{itemize}
   \tightlist
   \item
-    skills: Javascript, React, Node
+    skills: Javascript, React, Node, Typescript
   \item
     Architect and built a node backend for Ology (pharmaceutical
     integration platform);
@@ -197,8 +194,8 @@ help here and there in opensource pojects like Firefox (I am a mozillian
   \begin{itemize}
   \tightlist
   \item
-    skills: Python, Javascript, Angular 1.6, C, FreeSWITCH (Telephony
-    Platform)
+    skills: Python, Javascript, Node, Typescript, Angular 1.6, C,
+    FreeSWITCH (Telephony Platform)
   \item
     \(7 \times 24\) Check telephony service availability and recovery
     any possible failure;
