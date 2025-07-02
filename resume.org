@@ -2,7 +2,7 @@
 #+SUBTITLE: Software Engineer
 
 I am an open source passionate that love to learn, share and contribute particularly on any initiative that make the world equal to everyone.
-I help here and there in opensource pojects like Firefox (I am a mozillian :3), some KDE suite softwares and FreeSWITCH platform.
+I help here and there in opensource pojects like Firefox, some KDE suite softwares, GNOME and FreeSWITCH platform.
 
 * Skills
 
@@ -15,59 +15,67 @@ I help here and there in opensource pojects like Firefox (I am a mozillian :3), 
 
 - 2022.2--Present: Senior Developer at Sangoma
   - skills: C, FreeSWITCH (Telephony platform), Elixir, Distributed Systems, RabbitMQ, Python
-  - $7 \times 24$ Check telephony service availability and recovery any possible failure;
-  - Improve and maintain the ACD (Automatic Call Distributor), the piece of software responsible
-    to match an agent and a customer in a CCaaS platform;
-  - Help and solve questions regarding entire platform;
-  - Write analysis and documents of current and new features;
+  - Monitor and maintain 24/7 telephony service availability, implementing automated recovery systems for critical failures
+  - Enhanced and maintained ACD (Automatic Call Distributor) system, optimizing agent-customer matching algorithms in CCaaS platform
+  - Provide technical leadership and troubleshooting expertise across the entire telephony platform
+  - Authored comprehensive technical documentation and feature analysis for current and upcoming platform capabilities
 
 \vspace{2mm}
 
-- 2021.2--2022.8: C;C++ Senior Developer/Consultant at Telnyx
+- 2021.2--2022.8: Senior C/C++ Developer/Consultant at Telnyx
   - skills: C, C++, FreeSWITCH (Telephony Platform), Distributed Systems, RabbitMQ, WebRTC
-  - $7 \times 24$ Check FreeSWITCH service availability and recovery any possible failure;
-  - I was hired to Be the bridge between FreeSWITCH team and WebRTC team (javascript developers), help with questions about webRTC and
-    fix problems with mod_verto (WebRTC FreeSWITCH module). Usually improving and implementing new functionalities in FreeSWITCH modules (written in C);
+  - Maintained 24/7 FreeSWITCH service monitoring and implemented automated failure recovery mechanisms
+  - Served as technical liaison between FreeSWITCH and WebRTC development teams, resolving complex integration challenges
+  - Developed and enhanced mod_verto (WebRTC FreeSWITCH module), implementing new functionalities and resolving critical bugs in C
 
 \vspace{2mm}
 
-- 2019.1--2020.11: Consultant at MobileMinds
+- 2019.1--2020.11: Software Consultant at MobileMinds
   - skills: Javascript, React, Node, Typescript
-  - Architect and built a node backend for Ology (pharmaceutical integration platform);
+  - Architected and developed a scalable Node.js backend infrastructure for Ology pharmaceutical integration platform
 
 \vspace{2mm}
 
 - 2015.2--2018.12: Senior Developer at Evolux
   - skills: Python, Javascript, Node, Typescript, Angular 1.6, C, FreeSWITCH (Telephony Platform)
-  - $7 \times 24$ Check telephony service availability and recovery any possible failure;
-  - Started as support analyst, I was relocated to the developer team in order to build a AngularJS version of Verto Communicator for FreeSWITCH project. Finishing this version that has been used every week in FreeSWITCH conferences, I moved to Evolux main software refactoring realtime frontend and moving forward to the backend side with Python, Redis and socketIO. After get rid of realtime bottlenecks I was allocated as team leader of 4+ developers in SilentCircle outsource, developing a SPA React, redux and realtime dashboard for security telephony. When SilentCircle contract finished (2 years), I was allocated to help again on opensource FreeSWITCH in new Verto Communicator conference room project. Here I decided to move from my first version in AngularJS to a new one in React, this way we can have a new improved and fast version. Back to Evolux project with the necessity to move our core callcenter module on freeswitch (mod_callcenter in C) to an Elixir application running alongside freeswitch and start changing realtime backend from python to Elixir.
+  - Maintained 24/7 telephony service monitoring and implemented automated failure recovery systems
+  - Developed AngularJS version of Verto Communicator for FreeSWITCH project, deployed in weekly FreeSWITCH conferences
+  - Led frontend refactoring initiative, optimizing real-time performance using Python, Redis, and SocketIO
+  - Managed team of 4+ developers on SilentCircle outsourced project, delivering React/Redux SPA with real-time security telephony dashboard
+  - Migrated Verto Communicator from AngularJS to React, significantly improving performance and user experience
+  - Architected migration of core call center module from FreeSWITCH (mod_callcenter in C) to distributed Elixir application
 
 \vspace{2mm}
 
 - 2014.8--2014.12: Senior Developer at Stepmoney Brasil S.A
-  - skills: PHP
-  - Backend team leader directly focused on financial module and Brazilian credit card payments integrations. We were using PHP for the backend and since we are doing credit card processment all the code is well tested and documented. We used to simulate real world cases on a testnet server in order to see how the system will behave. On the frontend team, I built a specific panel with React used to demonstrate the indication tree. It is a genealogy tree view built in React with React D3 library.
+  - skills: PHP, React, D3.js
+  - Led backend development team specializing in financial modules and Brazilian credit card payment integrations
+  - Implemented comprehensive testing and documentation standards for secure credit card processing systems
+  - Designed and executed real-world simulation testing on dedicated testnet infrastructure
+  - Developed interactive genealogy tree visualization using React and D3.js for user indication tracking system
 
 \vspace{2mm}
 
-- 2013.2--2014.8: Plain Developer at Tecnotech Sistemas
-  - skills: PHP
-  - Tecnotech main system was a governmental system used by all Brazilian engineers and architects. I was allocated as the financial module leader. The financial module was suffering from high loads due to long polling tasks and expensive query routines, so I start refactoring some code and used materialized views in order to mitigate the problem our customers are facing while trying to pay the annuity bill.
+- 2013.2--2014.8: Developer at Tecnotech Sistemas
+  - skills: PHP, Database Optimization
+  - Led financial module development for governmental system serving all Brazilian engineers and architects
+  - Resolved critical performance issues by refactoring high-load polling tasks and optimizing expensive database queries
+  - Implemented materialized views solution, significantly improving system performance for annual billing processes
 
 \vspace{2mm}
 
-- 2013.8--2013.11: Trainee at MaisData Comunicação Direta
-  - skills: PHP
-  - First contact with Wordpress and maintaining shared host websites.
-    I was on top of 30+ websites managed by this digital agency.
+- 2013.8--2013.11: Developer Trainee at MaisData Comunicação Direta
+  - skills: PHP, WordPress
+  - Managed and maintained 30+ client websites on shared hosting infrastructure
+  - Gained foundational experience in WordPress development and digital agency operations
 
 \vspace{2mm}
 
-- 2010.4--2013.6: Developer at Digicontrol - ISP
+- 2010.4--2013.6: Network Developer at Digicontrol - ISP
   - skills: C, Asterisk (Telephony Platform), PHP
-  - $7 \times 24$ Responsible for the operation of complex radio access network (+500 remote radio head)
-  - develop and setup the asterisk with ivr system for isp's,
-    adapt codec to work in high latency network and inspect packages loss with capture analysis tools (Homer capture);
+  - Managed 24/7 operations of complex radio access network infrastructure with 500+ remote radio heads
+  - Developed and configured Asterisk IVR systems for ISP clients, optimizing call routing and user experience
+  - Implemented codec adaptations for high-latency networks and performed packet loss analysis using Homer capture tools
 
 * Open Source Experience
 
@@ -105,7 +113,7 @@ I help here and there in opensource pojects like Firefox (I am a mozillian :3), 
 
 * Contact Me
 
-- Email: [[mailto:sy.fen0@gmail.com][sy.fen0@gmail.com]]
+- Email: [[mailto:snotr4@proton.me][snotr4@proton.me]
 - Linkedin: https://www.linkedin.com/in/stefan-yohansson-areeira-pinto-4549844b/
 - Github: https://github.com/StefanYohansson/
 - PT number: +351 911 166 640
