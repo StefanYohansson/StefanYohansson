@@ -113,7 +113,7 @@ I help here and there in opensource pojects like Firefox, some KDE suite softwar
 
 * Contact Me
 
-- Email: [[mailto:snotr4@proton.me][snotr4@proton.me]
+- Email: [[mailto:snotr4@proton.me][snotr4@proton.me]]
 - Linkedin: https://www.linkedin.com/in/stefan-yohansson-areeira-pinto-4549844b/
 - Github: https://github.com/StefanYohansson/
 - PT number: +351 911 166 640
