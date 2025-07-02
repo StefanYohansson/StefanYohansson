@@ -8,27 +8,20 @@
 % for adjustwidth environment
 \usepackage[strict]{changepage}
 
-\usepackage{framed}
 \usepackage{xcolor}
 
-% environment derived from framed.sty: see leftbar environment definition
+% Simple quote environment without framed package
 \definecolor{quoteshade}{rgb}{0.95,0.95,0.95}
 
 \renewenvironment{quote}{%
   \setlength{\parskip}{0.2\baselineskip}
-  \def\FrameCommand{%
-    \hspace{1pt}%
-    {\color{gray}\vrule width 2pt}%
-    {\color{quoteshade}\vrule width 4pt}%
-    \colorbox{quoteshade}%
-  }%
-  \MakeFramed{\advance\hsize-\width\FrameRestore}%
-  \noindent\hspace{-4.55pt}% disable indenting first paragraph
   \begin{adjustwidth}{}{7pt}%
-  \vspace{2pt}\vspace{2pt}%
+  \vspace{2pt}%
+  \leftskip=4pt%
+  \rightskip=4pt%
 }
 {%
-  \vspace{2pt}\end{adjustwidth}\endMakeFramed%
+  \vspace{2pt}\end{adjustwidth}%
 }
 
 %% \setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
